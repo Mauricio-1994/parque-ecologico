@@ -1,0 +1,19 @@
+{
+  "title": "Parque Ecológico Danilo Marques Moura",
+  "sections": {
+    "origem": "Origem e Inspiração",
+    "construcao": "Construção e Desenvolvimento",
+    "importancia": "Importância Ecológica e Social",
+    "galeria": "Galeria de Fotos",
+    "contato": "Contato e Localização"
+  },
+  "footer": {
+    "contato": "Secretaria do Meio Ambiente",
+    "whatsapp": "Clique para conversar",
+    "mapa": "Ver mapa"
+  },
+  "news": {
+    "title": "Notícias e Eventos"
+  }
+}
+

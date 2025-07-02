@@ -2,6 +2,7 @@ import React from 'react';
 import Section from '../components/Section';
 import ThemeToggle from '../components/ThemeToggle';
 import PhotoGallery from '../components/PhotoGallery';
+import NewsSection from '../components/NewsSection';
 
 
 function Home() {
@@ -28,25 +29,28 @@ function Home() {
         <p>Hoje, contanto com aproximadamente 27,7 hectares (sendo cerca de 24 hectares de mata nativa) o parque Ecológico, além de ser um ponto turístico especial da cidade tanto para turistas quanto moradores, é muito usado pelas escolas e universidades para estudos relacionados a biologia, destacando a importância das constantes manutenções e o valor ambiental que o parque agrega ao município de Goioerê.</p>
       </Section>
 
+<Section title="Notícias">
+  <NewsSection />
+</Section>
+
 <Section title="Galeria de Fotos">
   <PhotoGallery />
-
-        <p>(Você pode adicionar uma galeria de imagens futuramente aqui)</p>
-      </Section>
+  <p>(Você pode adicionar uma galeria de imagens futuramente aqui)</p>
+</Section>
 
       <Section title="Contato e Localização">
         <p><strong>Secretaria do Meio Ambiente</strong></p>
         <p>WhatsApp: <a href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">Clique para conversar</a></p>
 <div style={{ marginTop: '1rem' }}>
   <iframe
-    title="Localização do Parque"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.5936492131394!2d-52.38731718494899!3d-24.18849738135486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ef5cddf2cbd105%3A0x5a0f4e89968c39d9!2sParque%20Ecol%C3%B3gico%20Danilo%20Marques%20Moura!5e0!3m2!1spt-BR!2sbr!4v1717432264114!5m2!1spt-BR!2sbr"
+    title="Localização do Parque Ecológico Danilo Marques Moura"
     width="100%"
     height="350"
     style={{ border: 0 }}
-    allowFullScreen=""
     loading="lazy"
+    allowFullScreen
     referrerPolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps?q=-24.189960764453815,-53.04631593916285&z=17&output=embed"
   ></iframe>
 </div>
       </Section>
